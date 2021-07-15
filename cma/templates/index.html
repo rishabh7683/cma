@@ -1,0 +1,276 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+
+	<aside id="fh5co-hero">
+		<div class="flexslider">
+			<ul class="slides">
+		   	<li style="background-image: url({% static "images/slide1.jpg" %});">
+		   		<div class="overlay-gradient"></div>
+		   		<div class="container">
+		   			<div class="row">
+			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
+			   				<div class="slider-text-inner">
+			   					<h1>The Roots of Education are Bitter, But the Fruit is Sweet</h1>
+									<!-- <h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+									<p><a class="btn btn-primary btn-lg" href="#">Start Learning Now!</a></p> -->
+			   				</div>
+			   			</div>
+			   		</div>
+		   		</div>
+		   	</li>
+		   	<li style="background-image: url({% static "images/slide2.jpg" %});">
+		   		<div class="overlay-gradient"></div>
+		   		<div class="container">
+		   			<div class="row">
+			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
+			   				<div class="slider-text-inner">
+			   					<h1>The Great Aim of Education is not Knowledge, But Action</h1>
+									<!-- <h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+									<p><a class="btn btn-primary btn-lg btn-learn" href="#">Start Learning Now!</a></p> -->
+			   				</div>
+			   			</div>
+			   		</div>
+		   		</div>
+		   	</li>
+		   	<li style="background-image: url({% static "images/slide3.jpg" %});">
+		   		<div class="overlay-gradient"></div>
+		   		<div class="container">
+		   			<div class="row">
+			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
+			   				<div class="slider-text-inner">
+			   					<h1>We Help You to Learn New Things</h1>
+									<!-- <h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+									<p><a class="btn btn-primary btn-lg btn-learn" href="#">Start Learning Now!</a></p> -->
+			   				</div>
+			   			</div>
+			   		</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	  	</div>
+	</aside>
+
+	<div id="fh5co-about">
+		<div class="container">
+			<div class="col-md-6 animate-box">
+				<h2>About Us</h2>
+				<h1><strong>Welcome to CMA School</strong></h1>
+				<h3>Knowledge Ennobles Character Endures</h3>
+				<p>C.M.A SCHOOL SATNA (M.P.) is managed by Cloth merchants association Satna and is a day boarding, Co-educational English and Hindi medium school affiliated to CBSE. We at the school aim to equip our students with qualification, skills, knowledge and attitudes which will enable them to thrive in the fast changing world. We at the school aim to equip our students with qualification, skills, knowledge and attitudes which will enable them to thrive in the fast changing world.</p>
+
+			</div>
+			<div class="col-md-6">
+				<img class="img-responsive" src="{% static "images/C M A Higher Secondary School-Campus View 2.jpg" %}" alt="">
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div id="fh5co-counter" class="fh5co-counters" style="background-image: url({% static "images/img_bg_4.jpg" %});" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<!-- <div class="col-md-3 col-sm-6 text-center animate-box">
+							<span class="icon"><i class="icon-users"></i></span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="3297" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Foreign Followers</span>
+						</div> -->
+						<div class="col-md-4 col-sm-6 text-center animate-box">
+							<span style="color:white; font-size:3em;" class="material-icons">groups</span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="1500" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Students</span>
+						</div>
+						<div class="col-md-4 col-sm-6 text-center animate-box">
+							<span style="color:white; font-size:3em;" class="material-icons">meeting_room</span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Classes</span>
+						</div>
+						<div class="col-md-4 col-sm-6 text-center animate-box">
+							<span style="color:white; font-size:3em;" class="material-icons">person_outline</span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="40" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Teachers</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-course">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<h2>Activities</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 animate-box">
+					<div class="course">
+						<a href="#" class="course-img" style="background-image: url({% static "images/a1.jpg" %});">
+						</a>
+						<div class="desc">
+							<h3>Sports</h3>
+							<p>Sports are the most common extracurricular activity for kids in the CMA. Swimming lessons, ice skating lessons, and soccer clinics are typically offered to children as early as the toddler and preschool years. Many town recreation departments offer baseball, softball, basketball, lacrosse, hockey, tennis, and volleyball to elementary-school-age kids. As they age out of youth leagues, many kids can join middle school or high school sports teams or try out for a competitive travel sports team.</p>
+							<!-- <span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="course">
+						<a href="#" class="course-img" style="background-image: url({% static "images/a2.jpg" %});">
+						</a>
+						<div class="desc">
+							<h3><a href="#">Music</a></h3>
+							<p>Band and choir are popular elective courses in many schools. Children can also get private lessons or join a community youth orchestra or other music groups. Educational research suggests that kids who play musical instruments do better in academic school subjects.6 However, learning to play and appreciate music alone is a fantastic reward in itself.</p>
+							<!-- <span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="course">
+						<a href="#" class="course-img" style="background-image: url({% static "images/a3.jpg" %});">
+						</a>
+						<div class="desc">
+							<h3><a href="#">Science &amp; Technology</a></h3>
+							<p>We do many events to promote Science and Technology.</p>
+							<!-- <span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="course">
+						<a href="#" class="course-img" style="background-image: url({% static "images/a4.jpg" %});">
+						</a>
+						<div class="desc">
+							<h3><a href="#">Physical Training</a></h3>
+							<p>We do Morning PT to sharpen student's mind.</p>
+							<!-- <span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-testimonial" style="background-image: url({% static "images/school.jpg" %});">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<h2><span>Testimonials</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row animate-box">
+						<div class="owl-carousel owl-carousel-fullwidth">
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<div class="user" style="background-image: url({% static "images/bot2.png" %});"></div>
+									<span>Naman Trivedi<br><small>Students</small></span>
+									<blockquote>
+										<p>&ldquo;Very Good School&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<div class="user" style="background-image: url({% static "images/bot2.png" %});"></div>
+									<span>Hritik Gupta<br><small>Students</small></span>
+									<blockquote>
+										<p>&ldquo;Good School.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<div class="user" style="background-image: url({% static "images/bot2.png" %});"></div>
+									<span>Ayush Srivastav<br><small>Students</small></span>
+									<blockquote>
+										<p>&ldquo;I wish, I can spend my whole life in this school.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<div class="user" style="background-image: url({% static "images/r.png" %});"></div>
+									<span>Akash Singh<br><small>Teacher</small></span>
+									<blockquote>
+										<p>&ldquo;blah blah blahh.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Notice &amp; Admissions Procedure</h2>
+					<!-- <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p> -->
+				</div>
+			</div>
+			<div class="row row-padded-mb">
+				<div class="col-md-4 animate-box">
+					<div class="fh5co-event">
+						<div class="date text-center"><span>30<br>July.</span></div>
+						<h3><a href="#">New Admissions Start</a></h3>
+						<p>Hurry up guys.</p>
+						<!-- <p><a href="#">Read More</a></p> -->
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="fh5co-event">
+						<div class="date text-center"><span>31<br>July.</span></div>
+						<h3><a href="#">Exam Result Anounced</a></h3>
+						<p>Stay alert guys.</p>
+						<!-- <p><a href="#">Read More</a></p> -->
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="fh5co-event">
+						<div class="date text-center"><span>15<br>Aug.</span></div>
+						<h3><a href="#">Independence Day</a></h3>
+						<p>jai javan jai kisan</p>
+						<!-- <p><a href="#">Read More</a></p> -->
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<!-- <div class="fh5co-blog animate-box">
+						<a href="#" class="blog-img-holder" style="background-image: url(images/project-1.jpg);"></a> -->
+						<div class="blog-text">
+							<center>
+							<h3>Admission Procedure</h3>
+							<span class="posted_on">March. 15th</span>
+							<!-- <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span> -->
+							<p>Admissions for 2021-22:</p>
+							<p>Admissions for the academic year 2021-22 are open. If interested, please drop us an email at admissions@odl.silveroaks.co.in or Contact us @ 9133379903.</p>
+							<p>The final decision on all applications rests with the Head of School. From the time, an interaction session is completed, the Admissions Committee aims to return a decision within one week, pending any further follow-up that may br required.</p>
+						</center>
+						</div>
+					<!-- </div> -->
+				</div>
+				</div>
+
+
+				</div>
+				<br>
+				<br>
+
+
+
+			  {% endblock %}
